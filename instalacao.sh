@@ -189,3 +189,11 @@ yarn --version
 
 npm install -g create-react-app
 npm install -g react-native-cli
+
+## Pós-instalacao ##
+echo Finalização, atualizações e limpeza
+sudo apt update
+sudo apt full-upgrade
+sudo apt dist-upgrade
+sudo apt autoclean
+sudo apt autoremove -y
